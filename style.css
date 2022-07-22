@@ -28,7 +28,6 @@ body{
 
 .navbar-brand img{
     width: 50px;
-    margin-left: 100px;
 }
 
 .navbar-toggler,
@@ -61,11 +60,13 @@ body{
     background: linear-gradient(to right, #ffffff 0%, #ff5050 86%);
         
 }
-
-
+.site-title .text-title{
+   font-size: 33px;
+}
 
 
 .surname{
+    font-size: 35px;
     background-color: #ffec99;
     width: fit-content;
 }
@@ -190,7 +191,7 @@ body{
  /* FOOTER */
 
 
- .footer{
+ footer{
     height: 300px;
     padding-top: 3rem;
     margin-top: 6rem;
@@ -201,22 +202,22 @@ body{
 
 }
 
-.footer .contact{
+footer .contact{
     font-size: 16px;
     margin-bottom: 6px;
     
 }
  
-.footer .contact a{
+footer .contact a{
     text-decoration: none;
     color: #171515;
 }
 
-.footer .contact a:hover{
+footer .contact a:hover{
     color: #e03131;
 }
 
-.footer .contact a::after{
+footer .contact a::after{
     content:"" ;
     color: #f59f00;
 }
